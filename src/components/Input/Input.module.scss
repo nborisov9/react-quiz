@@ -1,0 +1,30 @@
+.Input {
+  margin: 0px 0px 15px 0px;
+
+  label {
+    padding: 0;
+    font-weight: 700;
+  }
+
+  input {
+    display: block;
+    border: 1px slolid #bebebe;
+    padding: 7px;
+    margin: 5px 0px 5px 0px;
+    width: 100%;
+    transition: all 300ms ease-in-out;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  span {
+    display: block;
+    padding: 3px 0px 0px 0px;
+    color: #ff7581;
+    font-size: 19px;
+    font-weight: 600;
+  }
+
+  &.invalid {
+    color: #ff7581;
+  }
+}
